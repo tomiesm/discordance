@@ -1,0 +1,57 @@
+name: discordance
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.10.13
+
+  # PyTorch ecosystem
+  - pytorch=2.1.2
+  - torchvision=0.16.2
+  - pytorch-cuda=12.1
+
+  # Core scientific computing
+  - numpy=1.26.3
+  - pandas=2.1.4
+  - scikit-learn=1.4.0
+  - scipy=1.11.4
+
+  # Data I/O
+  - h5py=3.10.0
+  - pyarrow=14.0.2  # For efficient parquet I/O
+  - pyyaml=6.0.1
+
+  # Visualization
+  - matplotlib=3.8.2
+  - seaborn=0.13.1
+
+  # Utilities
+  - tqdm=4.66.1
+  - joblib=1.3.2
+
+  # Spatial biology
+  - scanpy=1.9.6
+  - anndata=0.10.3
+
+  # pip-only packages
+  - pip=23.3.2
+  - pip:
+    # Machine learning
+    - xgboost==2.0.3
+
+    # Vision models
+    - timm==0.9.12
+
+    # HuggingFace ecosystem
+    - huggingface-hub==0.20.2
+    - transformers==4.36.2
+
+    # Additional utilities
+    - datasets==2.16.1  # For HuggingFace dataset loading
+    - statsmodels>=0.14.0  # FDR correction in pathway/deconvolution analyses
+    - requests>=2.31.0  # UniProt/GO API queries in gene_annotations.py
+    - Pillow>=10.0.0  # Image processing for figure generation

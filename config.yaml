@@ -1,0 +1,180 @@
+# Discordance Project Configuration
+# Two-panel discovery/validation design: IDC Xenium
+#
+# All paths are relative to the repository root.
+# Run scripts/00_download.py first to populate data/hest/.
+# Run scripts/01_qc_and_splits.py to populate data/v3/.
+
+# --- Paths ---
+hest_dir: "./data/hest"
+hest_metadata: "HEST_v1_3_0.csv"
+v3_data_dir: "./data/v3"
+output_dir: "./outputs"
+
+# --- HuggingFace ---
+hest_repo_id: "MahmoodLab/hest"
+
+# --- Two-panel cohort structure ---
+# Discovery: Biomarkers cohort (280 genes, 11 samples, 4 patients)
+# Validation: 10x Public + Janesick cohort (280 different genes, 7 samples, 4 patients)
+# Bridge: 90 genes shared between panels
+
+cohorts:
+  discovery:
+    name: "biomarkers"
+    samples:
+      - TENX193
+      - TENX192
+      - TENX191
+      - TENX196
+      - TENX195
+      - TENX199
+      - TENX198
+      - TENX197
+      - TENX202
+      - TENX201
+      - TENX200
+    patient_mapping:
+      P03: [TENX193, TENX192, TENX191]
+      P04: [TENX196, TENX195]
+      P05: [TENX199, TENX198, TENX197]
+      P06: [TENX202, TENX201, TENX200]
+    n_lopo_folds: 4
+
+  validation:
+    name: "10x_janesick"
+    samples:
+      - TENX99
+      - TENX98
+      - TENX97
+      - TENX95
+      - NCBI785
+      - NCBI784
+      - NCBI783
+    patient_mapping:
+      P01: [TENX99, TENX98]
+      P02: [TENX97, TENX95]
+      P07: [NCBI785, NCBI784]
+      P08: [NCBI783]
+    n_lopo_folds: 4
+
+# All 18 samples (for embedding extraction, which is panel-agnostic)
+all_samples:
+  - TENX99
+  - TENX98
+  - TENX97
+  - TENX95
+  - TENX193
+  - TENX192
+  - TENX191
+  - TENX196
+  - TENX195
+  - TENX199
+  - TENX198
+  - TENX197
+  - TENX202
+  - TENX201
+  - TENX200
+  - NCBI785
+  - NCBI784
+  - NCBI783
+
+# --- Encoders ---
+encoders:
+  - name: uni
+    model_id: "MahmoodLab/UNI2-h"
+    embed_dim: 1536
+    batch_size_per_gpu: 64
+  - name: virchow2
+    model_id: "paige-ai/Virchow2"
+    embed_dim: 2560
+    batch_size_per_gpu: 64
+  - name: hoptimus0
+    model_id: "bioptimus/H-optimus-0"
+    embed_dim: 1536
+    batch_size_per_gpu: 96
+
+# --- Regressors ---
+regressors:
+  - name: ridge
+    type: ridge_fixed
+    pca_components: 256
+    # alpha = 100 / (256 * n_genes) computed at runtime per cohort
+
+  - name: xgboost
+    type: xgboost
+    pca_components: 256
+    n_estimators: 100
+    max_depth: 3
+    learning_rate: 0.1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    early_stopping_rounds: 20
+    n_jobs: 16
+
+  - name: mlp
+    type: mlp
+    pca_components: 256
+    hidden_dims: [256, 128]
+    dropout: 0.2
+    lr: 0.001
+    batch_size: 256
+    max_epochs: 100
+    patience: 10
+    weight_decay: 0.0001
+
+# --- Reproducibility ---
+seed: 42
+
+# --- Hardware ---
+# Adjust based on your system. The paper used 4x NVIDIA GPUs.
+n_gpus: 4
+n_workers: 16
+pin_memory: true
+mixed_precision: false
+
+# --- Logging ---
+log_level: "INFO"
+
+# --- Phase 2: Decision gates (DO NOT MODIFY POST HOC) ---
+phase2:
+  # Gate 2.1: Multi-model agreement
+  gate1_spearman_threshold: 0.4
+  gate1_min_fraction: 0.50    # >=50% of samples in cohort
+
+  # Gate 2.2: Spatial structure beyond geometry
+  gate2_pvalue_threshold: 0.01
+  gate2_min_fraction: 0.50
+
+  # Gate 2.3a: Internal dual-track (random 140/140 gene split within panel)
+  gate3_internal_spearman_threshold: 0.15
+
+  # Gate 2.3b: External cross-panel validation (deconvolution pattern replication)
+  # No numeric threshold — qualitative replication of direction and significance
+
+  pathway_min_overlap: 5
+
+  # Score parameters
+  conditional_n_bins: 10
+  conditional_min_bin_size: 30
+  spatial_n_neighbors: 6
+  spatial_n_permutations: 999
+
+# --- Phase 3 ---
+phase3:
+  de_quantile_top: 0.75
+  de_quantile_bottom: 0.25
+  de_fdr_threshold: 0.05
+  de_log2fc_threshold: 0.25
+  matching_k: [1, 5, 10]
+  matching_distance: "cosine"
+  hallmark_gmt: "data/gene_sets/h.all.v2024.1.Hs.symbols.gmt"
+
+# --- Control probe prefixes (excluded from analysis) ---
+control_prefixes:
+  - "UnassignedCodeword"
+  - "BLANK"
+  - "DeprecatedCodeword"
+  - "NegControlCodeword"
+  - "NegControlProbe"
+  - "antisense_"
