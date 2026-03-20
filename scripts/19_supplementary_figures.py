@@ -212,8 +212,6 @@ def supp_figure_s2(config, out_dir, logger):
     ax.text(0.02, 0.02, f"Silhouette = {sil:.3f}",
             transform=ax.transAxes, fontsize=5.5,
             bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.8))
-    ax.text(-0.12, 1.05, 'a', transform=ax.transAxes,
-            fontsize=10, fontweight='bold', va='top')
 
     # Panel (b): by patient
     ax = axes[1]
@@ -236,8 +234,6 @@ def supp_figure_s2(config, out_dir, logger):
     ax.set_ylabel(f"PC2 ({var2:.1%})")
     ax.set_title("Pseudo-bulk PCA by patient", fontsize=8, fontweight='bold')
     ax.legend(fontsize=5, loc='best', framealpha=0.9, ncol=2)
-    ax.text(-0.12, 1.05, 'b', transform=ax.transAxes,
-            fontsize=10, fontweight='bold', va='top')
 
     fig.tight_layout()
     save_figure(fig, out_dir / "figS2_batch_effect_pca")
