@@ -1,8 +1,8 @@
-# Morphology-Transcriptome Discordance in Spatial Transcriptomics
+# Prediction Residuals in Spatial Transcriptomics Reveal Microenvironmental Transition Zones in Cancer
 
-Code for the paper: **"Morphology-transcriptome discordance identifies biologically distinct cell states in spatial transcriptomics of breast and colorectal cancer"** (Nature Computational Science, 2026).
+Code for the paper: **"Prediction residuals in spatial transcriptomics reveal microenvironmental transition zones in cancer"**.
 
-This repository implements a complete pipeline for quantifying discordance between histological morphology and gene expression in spatial transcriptomics data. Foundation model embeddings (UNI2-h, Virchow2, H-Optimus-0) are used to predict gene expression from H&E image patches via LOPO cross-validation. Spots where predictions systematically fail — morphology-transcriptome discordant spots — are shown to represent biologically meaningful cell states.
+This repository implements a complete pipeline for quantifying discordance between histological morphology and gene expression in spatial transcriptomics data. Foundation model embeddings (UNI2-h, Virchow2, H-Optimus-0) are used to predict gene expression from H&E image patches via LOPO cross-validation. Spots where predictions systematically fail (morphology-transcriptome discordant spots) are shown to represent biologically meaningful cell states.
 
 > **Paper:** [DOI placeholder](https://doi.org/10.xxxx/xxxxx)
 
@@ -165,10 +165,9 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ```bibtex
 @article{discordance2026,
-  title={Morphology-transcriptome discordance identifies biologically distinct
-         cell states in spatial transcriptomics of breast and colorectal cancer},
-  author={[Authors]},
-  journal={Nature Computational Science},
+  title={Prediction residuals in spatial transcriptomics reveal microenvironmental transition zones in cancer},
+  author={[Tomas Iesmantas]},
+  journal={},
   year={2026},
   doi={10.xxxx/xxxxx}
 }

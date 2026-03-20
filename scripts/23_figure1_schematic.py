@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Figure 1: Study overview schematic for Nature Computational Science.
+Figure 1: Study overview schematic.
 
 Programmatic generation using matplotlib drawing primitives + embedded
 real data thumbnails. Flat, clean, colorblind-safe design.
