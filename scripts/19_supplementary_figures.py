@@ -2,7 +2,7 @@
 """
 Script 19: Generate supplementary figures.
 
-Available figures: S1, S3-S14, S17, S18, S22.
+Available figures: S1-S14, S17, S18, S22.
 
 Usage:
     python scripts/19_supplementary_figures.py                  # all figures
@@ -118,6 +118,130 @@ def supp_figure_s1(config, out_dir, logger):
     save_figure(fig, out_dir / "figS1b_spot_counts")
 
     logger.info("  S1 complete.")
+
+
+# ============================================================
+# S2: Batch Effect Assessment (Pseudo-bulk PCA)
+# ============================================================
+
+def supp_figure_s2(config, out_dir, logger):
+    """S2: Batch effect assessment — pseudo-bulk PCA of bridge genes."""
+    logger.info("Supp Figure S2: Batch Effect Assessment")
+    import scanpy as sc
+    from sklearn.decomposition import PCA
+    from sklearn.metrics import silhouette_score
+    from matplotlib.patches import Patch
+
+    hest_dir = Path(config["hest_dir"]).resolve()
+
+    # Build mappings
+    sample_to_cohort = {}
+    sample_to_patient = {}
+    for cohort_key in ["discovery", "validation"]:
+        cc = config["cohorts"][cohort_key]
+        for sid in cc["samples"]:
+            sample_to_cohort[sid] = cohort_key
+        for patient, sids in cc["patient_mapping"].items():
+            for sid in sids:
+                sample_to_patient[sid] = patient
+
+    # Bridge genes (shared across both panels)
+    v3_dir = Path(config.get("v3_data_dir", "data/v3"))
+    bridge_path = v3_dir / "gene_list_bridge.json"
+    with open(bridge_path) as f:
+        bridge_genes = json.load(f)
+    logger.info(f"  Using {len(bridge_genes)} bridge genes")
+
+    # Compute pseudo-bulk
+    pseudobulk = []
+    sample_ids = []
+    cohort_keys = []
+    patient_keys = []
+
+    for sid in config["all_samples"]:
+        adata_path = hest_dir / "st" / f"{sid}.h5ad"
+        if not adata_path.exists():
+            continue
+        adata = sc.read_h5ad(adata_path)
+        available = [g for g in bridge_genes if g in adata.var_names]
+        if len(available) < 10:
+            continue
+        X = adata[:, available].X
+        if hasattr(X, "toarray"):
+            X = X.toarray()
+        X = np.log1p(X)
+        pseudobulk.append(X.mean(axis=0))
+        sample_ids.append(sid)
+        cohort_keys.append(sample_to_cohort.get(sid, "unknown"))
+        patient_keys.append(sample_to_patient.get(sid, "unknown"))
+
+    pseudobulk = np.array(pseudobulk)
+
+    # PCA
+    pca = PCA(n_components=min(5, len(pseudobulk)))
+    pc = pca.fit_transform(pseudobulk)
+    var1 = pca.explained_variance_ratio_[0]
+    var2 = pca.explained_variance_ratio_[1]
+
+    # Silhouette score
+    sil = silhouette_score(pc[:, :min(3, pc.shape[1])], cohort_keys)
+    logger.info(f"  Silhouette score (cohort): {sil:.3f}")
+
+    # --- Figure ---
+    fig, axes = plt.subplots(1, 2, figsize=(FULL_WIDTH, FULL_WIDTH * 0.42))
+
+    # Panel (a): by cohort
+    ax = axes[0]
+    for ck in ["discovery", "validation"]:
+        mask = np.array([c == ck for c in cohort_keys])
+        ax.scatter(pc[mask, 0], pc[mask, 1],
+                   c=COLORS[ck], s=60, alpha=0.85, edgecolors='white',
+                   linewidths=0.5, label=COHORT_LABELS[ck], zorder=3)
+        for i in np.where(mask)[0]:
+            if sample_ids[i] == "TENX198":
+                offset, ha = (-5, 3), 'right'
+            else:
+                offset, ha = (3, 3), 'left'
+            ax.annotate(sample_ids[i], (pc[i, 0], pc[i, 1]),
+                        fontsize=4.5, alpha=0.7, ha=ha,
+                        xytext=offset, textcoords='offset points')
+    ax.set_xlabel(f"PC1 ({var1:.1%})")
+    ax.set_ylabel(f"PC2 ({var2:.1%})")
+    ax.set_title("Pseudo-bulk PCA by cohort", fontsize=8, fontweight='bold')
+    ax.legend(fontsize=5.5, loc='best', framealpha=0.9)
+    ax.text(0.02, 0.02, f"Silhouette = {sil:.3f}",
+            transform=ax.transAxes, fontsize=5.5,
+            bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.8))
+    ax.text(-0.12, 1.05, 'a', transform=ax.transAxes,
+            fontsize=10, fontweight='bold', va='top')
+
+    # Panel (b): by patient
+    ax = axes[1]
+    unique_patients = sorted(set(patient_keys))
+    for patient in unique_patients:
+        mask = np.array([p == patient for p in patient_keys])
+        color = PATIENT_COLORS.get(patient, '#999999')
+        ax.scatter(pc[mask, 0], pc[mask, 1],
+                   c=color, s=60, alpha=0.85, edgecolors='white',
+                   linewidths=0.5, label=patient, zorder=3)
+        for i in np.where(mask)[0]:
+            if sample_ids[i] == "TENX198":
+                offset, ha = (-5, 3), 'right'
+            else:
+                offset, ha = (3, 3), 'left'
+            ax.annotate(sample_ids[i], (pc[i, 0], pc[i, 1]),
+                        fontsize=4.5, alpha=0.7, ha=ha,
+                        xytext=offset, textcoords='offset points')
+    ax.set_xlabel(f"PC1 ({var1:.1%})")
+    ax.set_ylabel(f"PC2 ({var2:.1%})")
+    ax.set_title("Pseudo-bulk PCA by patient", fontsize=8, fontweight='bold')
+    ax.legend(fontsize=5, loc='best', framealpha=0.9, ncol=2)
+    ax.text(-0.12, 1.05, 'b', transform=ax.transAxes,
+            fontsize=10, fontweight='bold', va='top')
+
+    fig.tight_layout()
+    save_figure(fig, out_dir / "figS2_batch_effect_pca")
+    logger.info("  S2 complete.")
 
 
 # ============================================================
@@ -1592,11 +1716,12 @@ def main():
     out_dir = Path(config["output_dir"]) / "figures" / "supplementary"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    figures_to_gen = args.figure or [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17, 18, 22]
+    figures_to_gen = args.figure or [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17, 18, 22]
     overall_start = time.time()
 
     figure_funcs = {
         1: supp_figure_s1,
+        2: supp_figure_s2,
         3: supp_figure_s3,
         4: supp_figure_s4,
         5: supp_figure_s5,
