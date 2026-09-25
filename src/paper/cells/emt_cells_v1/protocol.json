@@ -1,0 +1,45 @@
+{
+  "seed": 20260920,
+  "samples": {
+    "NCBI785": "P07",
+    "NCBI784": "P07",
+    "NCBI783": "P08"
+  },
+  "source_annotations": {
+    "NCBI785": "GSM7780153_Xenium_R1_Fig1-5_supervised.csv.gz",
+    "NCBI784": "GSM7780154_Xenium_R2_Fig1-5_supervised.csv.gz",
+    "NCBI783": "GSM7780155_Xenium_Fig_6_unsupervised.csv.gz"
+  },
+  "transcript_qv_minimum": 20,
+  "cell_minimum_biological_transcripts": 20,
+  "cell_minimum_detected_biological_genes": 10,
+  "control_prefixes": [
+    "NegControl",
+    "Unassigned",
+    "BLANK",
+    "Deprecated",
+    "antisense_"
+  ],
+  "epithelial_genes": [
+    "EPCAM",
+    "CDH1",
+    "KRT8",
+    "KRT18",
+    "KRT19",
+    "KRT7",
+    "CLDN3",
+    "CLDN4",
+    "OCLN",
+    "TJP1",
+    "DSP",
+    "MUC1"
+  ],
+  "canonical_emt_tfs": [
+    "SNAI1",
+    "SNAI2",
+    "ZEB1",
+    "ZEB2",
+    "TWIST1",
+    "TWIST2"
+  ]
+}

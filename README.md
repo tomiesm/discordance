@@ -2,121 +2,104 @@
 
 **Author: Tomas Iesmantas**
 
-This repository contains the code for the revised manuscript. Histology embeddings
-from UNI2-h, Virchow2 and H-Optimus-0 predict spatial gene expression. Conditional
-discordance ranks locations by the magnitude of prediction error relative to
+Code for the current manuscript. Histology embeddings predict spatial gene
+expression; conditional discordance compares absolute prediction errors among
 locations with similar total expression. Q1 and Q4 identify relatively well and
-poorly predicted locations within each section. Gene, program and cell analyses
-then characterize their biological associations.
+poorly predicted locations within each section. Subsequent analyses examine
+gene expression, programs, cell composition and spatial coexpression.
 
-## Revision status
+## Layout
 
-The ridge model now fits an intercept using training data only. PCA centers image
-features, so fitting ridge without an intercept omitted the expression baseline.
-The correction changes predictions and residuals even when Pearson correlations
-remain similar. Regression tests cover constant expression, translation of the
-expression scale and exclusion of validation targets from the training baseline.
+- `src/`: prediction models, score definitions and shared analysis functions.
+- `src/paper/`: the current paper's statistical analyses and figure code.
+- `scripts/`: data download, model fitting and ordered analysis commands.
+- `data/`: the Hallmark gene definitions and discovery specimen registry.
+- `tests/`: tests of ridge fitting, cell phenotype definitions and spatial statistics.
 
-The revision also corrects discovery donor identities. The 11 discovery sections
-represent **11 distinct donors**, divided among four prediction holdout groups.
-Historical P03–P06 configuration keys identify these holdouts (B01–B04), not four
-patients with repeated sections. The folds remain unchanged and exclude test
-donors from training. Final biological summaries use the corrected donor registry.
+Generated data, numerical results and figures go into `data/hest/`, `data/v3/`
+and `outputs/`. They are excluded from version control.
 
-The final analyses retain the generic magnitude score and Q1/Q4 comparison.
-Residual patterns have heterogeneous biological associations; discordance does
-not by itself identify EMT. The revision includes a patient-specific EMT residual
-association and a separate statistical test of spatial coexpression.
+## Data and grouping
 
-The executed revision analyses are in [paper_revision/](paper_revision/README.md).
-They include donor aggregation, gene and program exclusion, overlap adjustment,
-spatial inference, boundary sensitivity, external applications and coexpression
-tests. Earlier pipeline scripts remain available for intermediate computations;
-**running scripts 00–23 alone does not reproduce the final revised inference**.
-In particular, old discovery repeat-section comparisons and spot-level significance
-summaries must not be substituted for the final donor and spatial analyses.
+The analysis uses public [HEST](https://huggingface.co/datasets/MahmoodLab/hest)
+data. Discovery comprises 11 breast sections from 11 distinct donors, with four
+prediction holdout groups. Validation comprises seven sections from four donor
+groups. COAD uses four sections; the Visium application includes a paired group
+that is excluded together during fitting.
 
-## Data
+Historical P03–P06 keys in `config.yaml` define discovery prediction holdouts,
+not biological patients. `data/discovery_specimens.csv` supplies the corrected
+donor assignments. Final summaries give equal weight to biological donors;
+discovery sections do not provide within-patient repeat comparisons.
 
-The analysis uses public spatial transcriptomics data from
-[HEST](https://huggingface.co/datasets/MahmoodLab/hest), version 1.3.0.
+The ridge model includes an intercept fitted using training data only.
+Q1/Q4 and the generic absolute-error definition are retained. Biological
+associations are context dependent; discordance alone does not label EMT.
 
-| Cohort | Sections | Biological groups | Genes |
-| --- | --- | --- | --- |
-| Discovery, 10x Biomarkers | TENX191–TENX193 and TENX195–TENX202 | 11 distinct donors; four prediction holdouts | 280 |
-| Validation, 10x Public and Janesick | TENX95, TENX97–TENX99, NCBI783–NCBI785 | Four donor groups; seven sections | 280 |
+## Environments
 
-The discovery source includes IDC and DCIS. See the
-[specimen registry](paper_revision/methodology_audit/stage_15_donor_correction/tables/specimen_registry.csv)
-and [fold registry](paper_revision/methodology_audit/stage_15_donor_correction/tables/fold_registry.csv)
-for the exact section, donor and holdout assignments.
-COAD uses TENX111, TENX147, TENX148 and TENX149. The Visium application and its
-independence restrictions are documented in the revision analyses.
-
-Raw images, expression data, embeddings, prediction arrays and large intermediate
-results are not included. Revision manifests record the input sources and hashes.
-
-## Installation
+The original model environment is defined by `environment.yaml`:
 
 ```bash
 conda env create -f environment.yaml
-conda activate discordance
 ```
 
-Alternatively, install `requirements.txt` in a compatible Python environment.
-The original environment files describe the base pipeline. Exact versions used
-for the revision are recorded in
-[environment_versions.json](paper_revision/focused_revision/build/environment_versions.json)
-and the experiment environment files. The recorded revision environment uses
-Python 3.12; the original environment is not an exact revision environment lock.
-
-Embedding extraction requires suitable GPU hardware and access to the gated
-[UNI2-h](https://huggingface.co/MahmoodLab/UNI2-h),
-[Virchow2](https://huggingface.co/paige-ai/Virchow2) and
-[H-Optimus-0](https://huggingface.co/bioptimus/H-optimus-0) models.
-
-## Code layout and execution
-
-- `src/`: data loading, embeddings, corrected regressors, scores and analysis helpers.
-- `scripts/`: the original pipeline with the executed computational corrections.
-- `tests/`: ridge regression tests.
-- `paper_revision/clean_repo/`: executed revision pipeline snapshot and refit scripts.
-- `paper_revision/methodology_audit/`: successive analysis stages; Stage 15 supplies final donor aggregation.
-- `paper_revision/experiments/`: cell coexpression and spatial statistical comparisons.
-- `paper_revision/focused_revision/build/`: figure generation from corrected results.
-- `paper_revision/minimal_text_revision/build/`: final figure presentation adjustments.
-
-For the base pipeline, edit `config.yaml` for local data paths and hardware, then
-run from the repository root:
+The final statistical analyses used Python 3.12 and the versions listed in
+`requirements-analysis.txt`. Install these in a separate analysis environment:
 
 ```bash
-python scripts/00_download.py
-python scripts/01_qc_and_splits.py
-python scripts/02_extract_embeddings.py
-python scripts/03_train_predict.py
-python scripts/04_discordance_scores.py
+conda create -n discordance-analysis python=3.12 pip
+conda activate discordance-analysis
+pip install -r requirements-analysis.txt
 ```
 
-Subsequent numbered scripts provide historical intermediate analyses. Follow the
-[revision guide](paper_revision/README.md) for the revised analysis sequence and
-required inputs. The archived scripts preserve the executed workspace layout;
-they require intermediate data and are not a standalone reproduction from this
-checkout. Plotting scripts also require the original figure assets. No complete
-fresh-machine rerun is claimed.
+Use the model environment's Python executable for `--model-python` below.
+Keeping it separate preserves scikit-learn 1.4.0 for the fitted model pipeline
+and the joint Visium fit. The analysis environment uses scikit-learn 1.6.1.
+Embedding extraction requires GPU hardware and access to the gated UNI2-h,
+Virchow2 and H-Optimus-0 models.
+
+## Reproduce the current results
+
+Run from the repository root. The default data layout is `data/hest/` and
+`data/v3/`; outputs are written under `outputs/`. First inspect the sequence:
+
+```bash
+python scripts/24_current_paper.py --list
+```
+
+Then run it with the model environment's interpreter:
+
+```bash
+python scripts/24_current_paper.py --model-python /path/to/discordance/bin/python
+```
+
+The phases can also be run separately, in order: `download`, `models`,
+`analysis`, `cells`, `final`. For example, `--phase final` reruns final donor
+summaries and table export after the preceding phases have completed.
+The existing numerical definitions and random seeds are retained. The cutoff
+sensitivity uses 20%, 25% and 30% tails.
+
+Final donor summaries are saved in `outputs/paper/donors/tables/`; numbered
+supplementary tables are exported to `outputs/paper/Tables/`. The spatial
+coexpression analysis is saved under `outputs/cells/` and remains separate
+from the primary Q1/Q4 residual comparison.
+
+Generate the result panels after the numerical analyses:
+
+```bash
+python scripts/25_paper_figures.py
+```
+
+These are saved under `outputs/paper_figures/`. Public HEST images, expression
+matrices and source cell annotations are required for the corresponding
+analyses. Full fitting and permutation runs are computationally intensive.
 
 ## Tests
 
-These tests use synthetic data and do not require the large analysis inputs:
-
 ```bash
 python -B -m unittest discover -s tests -v
-python -B -m unittest discover -s paper_revision/experiments/emt_cells_v1/tests -v
-python -B -m unittest discover -s paper_revision/experiments/emt_spatial_enrichment_v1/tests -v
 ```
-
-The revision directories also contain the executed independent verification
-scripts and their recorded results. Full verification requires their recorded
-analysis inputs.
 
 ## License
 

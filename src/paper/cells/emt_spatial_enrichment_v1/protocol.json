@@ -1,0 +1,16 @@
+{
+  "samples": {
+    "NCBI785": "P07",
+    "NCBI784": "P07",
+    "NCBI783": "P08"
+  },
+  "radii_um": [
+    50,
+    100,
+    150
+  ],
+  "primary_radius_um": 100,
+  "permutations": 1999,
+  "batch_size": 32,
+  "seed": 2026092002
+}

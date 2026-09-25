@@ -1,8 +1,0 @@
-{
-  "status": "pass",
-  "independent_null_component_checks": 45,
-  "method": "Hierarchical single linkage of all pair distances, independent of spatial adjacency connected-components algorithm",
-  "observed_extents_verified": 3,
-  "all_component_pvalues_verified": 150,
-  "multiplicity_verified": true
-}

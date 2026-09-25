@@ -1,8 +1,0 @@
-{
-  "status": "pass",
-  "source_files_unchanged": 226,
-  "independent_checks": 198,
-  "boundary_rows": 46359,
-  "validation_brute_permutations": 5040,
-  "validation_source_preserving_permutations": 144
-}

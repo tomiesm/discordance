@@ -1,4 +1,0 @@
-sample,inherited_group,source_specimen,source_TNM,source_stage,source_grade,source_receptors,source_url
-NCBI785,P07,Sample 1,T2N1M0,II-B,Not found in checked source,ER+/HER2+/PR-,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243168
-NCBI784,P07,Sample 1,T2N1M0,II-B,Not found in checked source,ER+/HER2+/PR-,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243168
-NCBI783,P08,Sample 2,pT2 pN1a pMX,Not assigned here,Not found in checked source,ER-/HER2+/PR-,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243168
