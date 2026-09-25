@@ -1,0 +1,1255 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "eleven_discovery_donors",
+      "passed": true
+    },
+    {
+      "name": "registry_matches_source",
+      "passed": true
+    },
+    {
+      "name": "no_discovery_repeats",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/0:independent_fold_check",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/1:independent_fold_check",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/2:independent_fold_check",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/3:independent_fold_check",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick:each_specimen_tested_once",
+      "passed": true
+    },
+    {
+      "name": "biomarkers/0:independent_fold_check",
+      "passed": true
+    },
+    {
+      "name": "biomarkers/1:independent_fold_check",
+      "passed": true
+    },
+    {
+      "name": "biomarkers/2:independent_fold_check",
+      "passed": true
+    },
+    {
+      "name": "biomarkers/3:independent_fold_check",
+      "passed": true
+    },
+    {
+      "name": "biomarkers:each_specimen_tested_once",
+      "passed": true
+    },
+    {
+      "name": "all_section_gene_numbers_preserved_to_csv_precision",
+      "passed": true,
+      "max_csv_roundtrip_difference": 2.2737367544323206e-13
+    },
+    {
+      "name": "independent_gene_aggregation_and_intervals",
+      "passed": true,
+      "n_cases": 26880,
+      "max_mean_error": 1.4210854715202004e-14,
+      "max_interval_error": 5.684341886080802e-14
+    },
+    {
+      "name": "validation_gene_means_unchanged",
+      "passed": true,
+      "max_error": 2.842170943040401e-14
+    },
+    {
+      "name": "historical_split_averages_reproduced",
+      "passed": true,
+      "max_error": 5.684341886080802e-14
+    },
+    {
+      "name": "10x_janesick:boundary_0:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 27
+    },
+    {
+      "name": "10x_janesick:boundary_200:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 27
+    },
+    {
+      "name": "10x_janesick:boundary_400:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 27
+    },
+    {
+      "name": "biomarkers:boundary_0:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 31
+    },
+    {
+      "name": "biomarkers:boundary_200:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 31
+    },
+    {
+      "name": "biomarkers:boundary_400:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 31
+    },
+    {
+      "name": "coad:boundary_0:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 26
+    },
+    {
+      "name": "coad:boundary_200:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 26
+    },
+    {
+      "name": "coad:boundary_400:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 26
+    },
+    {
+      "name": "idc_visium:boundary_0:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 50
+    },
+    {
+      "name": "idc_visium:boundary_200:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 50
+    },
+    {
+      "name": "idc_visium:boundary_400:all_program_error_means_positive",
+      "passed": true,
+      "n_programs": 50
+    },
+    {
+      "name": "biomarkers/0/ACTA2:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "biomarkers/0/KIT:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "biomarkers/0/YY1AP1:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "biomarkers/3/ACTA2:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "biomarkers/3/KIT:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "biomarkers/3/YY1AP1:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/0/ABCC11:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/0/KDR:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/0/ZNF562:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/3/ABCC11:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/3/KDR:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "10x_janesick/3/ZNF562:scipy_correlation",
+      "passed": true
+    },
+    {
+      "name": "positive_spatial_coefficient_each_donor_omission",
+      "passed": true,
+      "n_omissions": 15
+    },
+    {
+      "name": "all_stage15_inputs_unchanged",
+      "passed": true,
+      "n_files": 182
+    },
+    {
+      "name": "original_preserved:CIBM_submission/CIBM-D-26-02276.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:CIBM-D-26-02276.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s10_coad_gene_features.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s10_coad_gene_features.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s11_coad_pathway_de.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s11_coad_pathway_de.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s12_coad_pathway_consistency.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s12_coad_pathway_consistency.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s13_coad_cross_tissue_predictability.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s13_coad_cross_tissue_predictability.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s1_per_gene_performance.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s1_per_gene_performance.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s2_bridge_genes.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s2_bridge_genes.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s3_full_de_results.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s3_full_de_results.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s4_within_patient.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s4_within_patient.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s5_pathway_overlap.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s5_pathway_overlap.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s6_encoder_specific.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s6_encoder_specific.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s7_subsampling.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s7_subsampling.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s8_gate_results.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s8_gate_results.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/supp_table_s9_pathway_replication.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/supp_table_s9_pathway_replication.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/table1_dataset_characteristics.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/table1_dataset_characteristics.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/table2_ols_coefficients.csv",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/table2_ols_coefficients.csv",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/Tables/tables.zip",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:Tables/tables.zip",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/cover_letter.tex",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:cover_letter.tex",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/declaration of interests.tex",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:declaration of interests.tex",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/ethics.tex",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:ethics.tex",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure1/fig1b_he_grid.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure1/fig1b_he_grid.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure1/fig1c_pearson_distribution.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure1/fig1c_pearson_distribution.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure1/fig1d_encoder_regressor_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure1/fig1d_encoder_regressor_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure1/fig1e_spatial_prediction.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure1/fig1e_spatial_prediction.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure2/fig2a_gate21_agreement.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure2/fig2a_gate21_agreement.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure2/fig2ac_agreement_dual_track.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure2/fig2ac_agreement_dual_track.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure2/fig2b_NCBI785.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure2/fig2b_NCBI785.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure2/fig2b_TENX193.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure2/fig2b_TENX193.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure2/fig2c_dual_track_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure2/fig2c_dual_track_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure2/fig2d_subsampling_curve.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure2/fig2d_subsampling_curve.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure3/fig3a_spatial_biology.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure3/fig3a_spatial_biology.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure3/fig3b_deconvolution_dumbbell.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure3/fig3b_deconvolution_dumbbell.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure3/fig3c_pathway_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure3/fig3c_pathway_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure3/fig3d_volcano.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure3/fig3d_volcano.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure4/fig4a_morans_vs_pearson.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure4/fig4a_morans_vs_pearson.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure4/fig4b_ols_coefficients.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure4/fig4b_ols_coefficients.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure4/fig4c_predictability_by_localization.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure4/fig4c_predictability_by_localization.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure4/fig4d_heldout_validation.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure4/fig4d_heldout_validation.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure5/fig5_combined_acd.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure5/fig5_combined_acd.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure5/fig5_combined_acd.png",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure5/fig5_combined_acd.png",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure6/fig6a_coad_morans_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure6/fig6a_coad_morans_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure6/fig6b_cross_tissue_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure6/fig6b_cross_tissue_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/figure6/fig6c_cross_cancer_pathway.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/figure6/fig6c_cross_cancer_pathway.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/figures/main_figure.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:figures/main_figure.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/paper.tex",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:paper.tex",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/references.bib",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:references.bib",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary.tex",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary.tex",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS10_deconvolution_detail.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS10_deconvolution_detail.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS11b_localization_predictability.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS11b_localization_predictability.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS12a_within_patient_gene_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS12a_within_patient_gene_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS13_matched_vs_unmatched.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS13_matched_vs_unmatched.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS14a_macrophage_per_sample.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS14a_macrophage_per_sample.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS14b_celltype_per_sample.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS14b_celltype_per_sample.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS17a_pathway_heatmap_discovery.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS17a_pathway_heatmap_discovery.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS17b_pathway_heatmap_validation.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS17b_pathway_heatmap_validation.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS18b_coad_pathway_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS18b_coad_pathway_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS18c_coad_predictability_comparison.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS18c_coad_predictability_comparison.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS1a_umi_distribution.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS1a_umi_distribution.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS1b_spot_counts.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS1b_spot_counts.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS22_interior_only_de.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS22_interior_only_de.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS2_batch_effect_pca.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS2_batch_effect_pca.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS3a_gene_heatmap_disc.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS3a_gene_heatmap_disc.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS3a_gene_heatmap_val.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS3a_gene_heatmap_val.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS3c_ridge_vs_mlp.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS3c_ridge_vs_mlp.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS4_conditional_discordance.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS4_conditional_discordance.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS5a_pairwise_correlation_matrices.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS5a_pairwise_correlation_matrices.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS5b_spotcount_vs_agreement.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS5b_spotcount_vs_agreement.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS6a_spatial_maps_all.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS6a_spatial_maps_all.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS6b_morans_vs_samplesize.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS6b_morans_vs_samplesize.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS7a_dual_track_all_samples.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS7a_dual_track_all_samples.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS7b_subsampling_curve.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS7b_subsampling_curve.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS8a_per_sample_volcanos.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS8a_per_sample_volcanos.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS8b_matching_quality.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS8b_matching_quality.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS9a_full_pathway_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS9a_full_pathway_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_figures/figS9b_pathway_overlap.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_figures/figS9b_pathway_overlap.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/supplementary_note_1_visium.tex",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:supplementary_note_1_visium.tex",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/visium_figures/fig_visium_cross_technology_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:visium_figures/fig_visium_cross_technology_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/visium_figures/fig_visium_morans_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:visium_figures/fig_visium_morans_scatter.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/visium_figures/fig_visium_pathway_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:visium_figures/fig_visium_pathway_heatmap.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:CIBM_submission/visium_figures/fig_visium_predictability_comparison.pdf",
+      "passed": true
+    },
+    {
+      "name": "copied_manuscript_preserved:visium_figures/fig_visium_predictability_comparison.pdf",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/COMMIT_EDITMSG",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/HEAD",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/config",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/description",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/applypatch-msg.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/commit-msg.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/fsmonitor-watchman.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/post-update.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/pre-applypatch.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/pre-commit.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/pre-merge-commit.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/pre-push.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/pre-rebase.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/pre-receive.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/prepare-commit-msg.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/push-to-checkout.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/sendemail-validate.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/hooks/update.sample",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/index",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/info/exclude",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/info/refs",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/logs/HEAD",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/logs/refs/heads/main",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/logs/refs/remotes/origin/main",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/17/6c9b73386cd920a98ef8daf35158f307b154b1",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/1a/09fdd5a4a12ae2971a86fc2dbbdd088df098ee",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/32/844e3c54cd9fa5fc009902a9caebe1b8a47f67",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/69/2840e303daa9cda16f321e06295c4dc6bbebfd",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/6f/b8273771dacc0654eca569e7f8e8a89d7f69ed",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/79/35120a163084990dfa1c5520d556413dac04e3",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/7a/04b070d3f5875219bbd6905c78a06f237d4298",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/97/1ae6b92db7dda2cc32aa8958cce2a70ac74f74",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/e2/428f7df3e012f786c9b341eecdf3764df21291",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/ee/518ff72555b53caf2626cbbbf10469e4214663",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/f2/4b56532de3e19aa36dae743ab44f9ba666b528",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/info/commit-graph",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/info/packs",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/pack/pack-4b3dab159280d842a05f831afd3dfd13bb7bfc86.idx",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/pack/pack-4b3dab159280d842a05f831afd3dfd13bb7bfc86.pack",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/objects/pack/pack-4b3dab159280d842a05f831afd3dfd13bb7bfc86.rev",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/packed-refs",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/refs/heads/main",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.git/refs/remotes/origin/main",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/.gitignore",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/LICENSE",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/README.md",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/config.yaml",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/data/gene_sets/h.all.v2024.1.Hs.symbols.gmt",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/environment.yaml",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/outputs_v3/logs/19_supplementary_figures.log",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/00_download.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/01_qc_and_splits.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/02_extract_embeddings.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/03_train_predict.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/04_discordance_scores.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/05_multimodel_agreement.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/06_spatial_structure.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/07_dual_track.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/08_de_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/09_pathway_enrichment.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/10_deconvolution.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/11_gene_predictability.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/12_within_patient.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/13_heldout_validation.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/14_encoder_consistency.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/15_bridge_gene_replication.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/16_summary_report.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/17_compute_figure_data.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/17b_compute_reproducibility.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/18_main_figures.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/19_supplementary_figures.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/20_coad_generalization.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/20_tables.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/21_idc_visium_generalization.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/22_interior_only_de.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/scripts/23_figure1_schematic.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/__init__.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/data.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/de_analysis.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/deconvolution.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/discordance.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/embeddings.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/gene_annotations.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/matching.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/pathways.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/plotting.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/regressors.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/spatial.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/__pycache__/utils.cpython-312.pyc",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/data.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/de_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/deconvolution.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/discordance.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/embeddings.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/gene_annotations.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/matching.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/pathways.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/plotting.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/regressors.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/spatial.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:clean_repo/src/utils.py",
+      "passed": true
+    },
+    {
+      "name": "original_preserved:Reviews/reviews.txt",
+      "passed": true
+    }
+  ],
+  "original_files_verified": 184,
+  "copied_manuscript_files_verified": 80
+}

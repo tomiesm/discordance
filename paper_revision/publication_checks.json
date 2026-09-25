@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "python_files_parsed": 162,
+  "copied_files_hash_verified": 230,
+  "configuration_values_unchanged": true,
+  "discovery_sections": 11,
+  "discovery_donors": 11,
+  "total_sections": 18,
+  "prediction_folds_checked": 8,
+  "donor_disjoint_folds": true,
+  "each_section_tested_once": true,
+  "public_readme_links_checked": true,
+  "credential_pattern_check_passed": true,
+  "synthetic_tests": {
+    "ridge": 3,
+    "cell_science": 6,
+    "spatial_statistics": 6,
+    "total": 15,
+    "result": "pass"
+  },
+  "full_data_reanalysis_performed_for_publication": false,
+  "python": "3.12.2",
+  "whitespace_check": "pass; original CSV CRLF line endings preserved"
+}

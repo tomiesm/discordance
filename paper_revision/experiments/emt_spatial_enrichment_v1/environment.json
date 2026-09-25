@@ -1,0 +1,16 @@
+{
+  "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:50:58) [GCC 12.3.0]",
+  "executable": "/home/tmk-gpu/anaconda3/envs/torch/bin/python",
+  "platform": "Linux-6.17.0-1032-oem-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.2.2",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "anndata": "0.12.10",
+    "h5py": "3.14.0",
+    "pyarrow": "17.0.0",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.8",
+    "PyMuPDF": "1.27.1"
+  }
+}

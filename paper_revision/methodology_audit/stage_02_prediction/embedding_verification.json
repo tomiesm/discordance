@@ -1,0 +1,10 @@
+{
+  "n_vectors": 162,
+  "status": "differences_require_review",
+  "relative_l2_tolerance": 0.001,
+  "max_relative_l2_error": 0.006180865650748738,
+  "torch_version": "2.6.0+cu124",
+  "cuda_device": "NVIDIA RTX 4000 Ada Generation",
+  "wrapper_sha256": "b23cc557ea9f7641e5e9c4fa60cb56db111fcd91afb5383e30d4ff30598a5aba",
+  "scope": "54 fixed patches per encoder across all 18 IDC sections; existing cached pretrained models, no replacements"
+}

@@ -1,0 +1,4787 @@
+{
+  "completed_utc": "2026-09-20T11:31:56.179654+00:00",
+  "status": "pass",
+  "n_checks": 879,
+  "failed": [],
+  "checks": [
+    {
+      "check": "original:CIBM_submission/CIBM-D-26-02276.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:CIBM-D-26-02276.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s10_coad_gene_features.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s10_coad_gene_features.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s11_coad_pathway_de.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s11_coad_pathway_de.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s12_coad_pathway_consistency.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s12_coad_pathway_consistency.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s13_coad_cross_tissue_predictability.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s13_coad_cross_tissue_predictability.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s1_per_gene_performance.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s1_per_gene_performance.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s2_bridge_genes.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s2_bridge_genes.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s3_full_de_results.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s3_full_de_results.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s4_within_patient.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s4_within_patient.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s5_pathway_overlap.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s5_pathway_overlap.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s6_encoder_specific.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s6_encoder_specific.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s7_subsampling.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s7_subsampling.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s8_gate_results.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s8_gate_results.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/supp_table_s9_pathway_replication.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/supp_table_s9_pathway_replication.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/table1_dataset_characteristics.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/table1_dataset_characteristics.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/table2_ols_coefficients.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/table2_ols_coefficients.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/Tables/tables.zip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:Tables/tables.zip",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/cover_letter.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:cover_letter.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/declaration of interests.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:declaration of interests.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/ethics.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:ethics.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure1/fig1b_he_grid.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure1/fig1b_he_grid.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure1/fig1c_pearson_distribution.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure1/fig1c_pearson_distribution.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure1/fig1d_encoder_regressor_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure1/fig1d_encoder_regressor_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure1/fig1e_spatial_prediction.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure1/fig1e_spatial_prediction.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure2/fig2a_gate21_agreement.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure2/fig2a_gate21_agreement.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure2/fig2ac_agreement_dual_track.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure2/fig2ac_agreement_dual_track.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure2/fig2b_NCBI785.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure2/fig2b_NCBI785.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure2/fig2b_TENX193.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure2/fig2b_TENX193.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure2/fig2c_dual_track_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure2/fig2c_dual_track_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure2/fig2d_subsampling_curve.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure2/fig2d_subsampling_curve.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure3/fig3a_spatial_biology.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure3/fig3a_spatial_biology.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure3/fig3b_deconvolution_dumbbell.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure3/fig3b_deconvolution_dumbbell.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure3/fig3c_pathway_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure3/fig3c_pathway_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure3/fig3d_volcano.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure3/fig3d_volcano.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure4/fig4a_morans_vs_pearson.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure4/fig4a_morans_vs_pearson.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure4/fig4b_ols_coefficients.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure4/fig4b_ols_coefficients.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure4/fig4c_predictability_by_localization.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure4/fig4c_predictability_by_localization.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure4/fig4d_heldout_validation.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure4/fig4d_heldout_validation.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure5/fig5_combined_acd.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure5/fig5_combined_acd.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure5/fig5_combined_acd.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure5/fig5_combined_acd.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure6/fig6a_coad_morans_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure6/fig6a_coad_morans_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure6/fig6b_cross_tissue_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure6/fig6b_cross_tissue_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/figure6/fig6c_cross_cancer_pathway.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/figure6/fig6c_cross_cancer_pathway.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/figures/main_figure.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:figures/main_figure.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/paper.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:paper.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/references.bib",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:references.bib",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS10_deconvolution_detail.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS10_deconvolution_detail.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS11b_localization_predictability.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS11b_localization_predictability.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS12a_within_patient_gene_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS12a_within_patient_gene_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS13_matched_vs_unmatched.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS13_matched_vs_unmatched.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS14a_macrophage_per_sample.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS14a_macrophage_per_sample.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS14b_celltype_per_sample.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS14b_celltype_per_sample.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS17a_pathway_heatmap_discovery.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS17a_pathway_heatmap_discovery.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS17b_pathway_heatmap_validation.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS17b_pathway_heatmap_validation.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS18b_coad_pathway_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS18b_coad_pathway_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS18c_coad_predictability_comparison.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS18c_coad_predictability_comparison.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS1a_umi_distribution.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS1a_umi_distribution.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS1b_spot_counts.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS1b_spot_counts.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS22_interior_only_de.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS22_interior_only_de.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS2_batch_effect_pca.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS2_batch_effect_pca.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS3a_gene_heatmap_disc.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS3a_gene_heatmap_disc.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS3a_gene_heatmap_val.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS3a_gene_heatmap_val.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS3c_ridge_vs_mlp.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS3c_ridge_vs_mlp.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS4_conditional_discordance.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS4_conditional_discordance.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS5a_pairwise_correlation_matrices.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS5a_pairwise_correlation_matrices.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS5b_spotcount_vs_agreement.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS5b_spotcount_vs_agreement.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS6a_spatial_maps_all.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS6a_spatial_maps_all.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS6b_morans_vs_samplesize.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS6b_morans_vs_samplesize.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS7a_dual_track_all_samples.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS7a_dual_track_all_samples.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS7b_subsampling_curve.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS7b_subsampling_curve.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS8a_per_sample_volcanos.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS8a_per_sample_volcanos.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS8b_matching_quality.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS8b_matching_quality.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS9a_full_pathway_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS9a_full_pathway_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_figures/figS9b_pathway_overlap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_figures/figS9b_pathway_overlap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/supplementary_note_1_visium.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:supplementary_note_1_visium.tex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/visium_figures/fig_visium_cross_technology_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:visium_figures/fig_visium_cross_technology_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/visium_figures/fig_visium_morans_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:visium_figures/fig_visium_morans_scatter.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/visium_figures/fig_visium_pathway_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:visium_figures/fig_visium_pathway_heatmap.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:CIBM_submission/visium_figures/fig_visium_predictability_comparison.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "copied_submission:visium_figures/fig_visium_predictability_comparison.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/COMMIT_EDITMSG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/HEAD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/config",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/applypatch-msg.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/commit-msg.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/fsmonitor-watchman.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/post-update.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/pre-applypatch.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/pre-commit.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/pre-merge-commit.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/pre-push.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/pre-rebase.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/pre-receive.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/prepare-commit-msg.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/push-to-checkout.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/sendemail-validate.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/hooks/update.sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/index",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/info/exclude",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/info/refs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/logs/HEAD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/logs/refs/heads/main",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/logs/refs/remotes/origin/main",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/17/6c9b73386cd920a98ef8daf35158f307b154b1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/1a/09fdd5a4a12ae2971a86fc2dbbdd088df098ee",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/32/844e3c54cd9fa5fc009902a9caebe1b8a47f67",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/69/2840e303daa9cda16f321e06295c4dc6bbebfd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/6f/b8273771dacc0654eca569e7f8e8a89d7f69ed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/79/35120a163084990dfa1c5520d556413dac04e3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/7a/04b070d3f5875219bbd6905c78a06f237d4298",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/97/1ae6b92db7dda2cc32aa8958cce2a70ac74f74",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/e2/428f7df3e012f786c9b341eecdf3764df21291",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/ee/518ff72555b53caf2626cbbbf10469e4214663",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/f2/4b56532de3e19aa36dae743ab44f9ba666b528",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/info/commit-graph",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/info/packs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/pack/pack-4b3dab159280d842a05f831afd3dfd13bb7bfc86.idx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/pack/pack-4b3dab159280d842a05f831afd3dfd13bb7bfc86.pack",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/objects/pack/pack-4b3dab159280d842a05f831afd3dfd13bb7bfc86.rev",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/packed-refs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/refs/heads/main",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.git/refs/remotes/origin/main",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/.gitignore",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/LICENSE",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/config.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/data/gene_sets/h.all.v2024.1.Hs.symbols.gmt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/environment.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/outputs_v3/logs/19_supplementary_figures.log",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/requirements.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/00_download.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/01_qc_and_splits.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/02_extract_embeddings.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/03_train_predict.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/04_discordance_scores.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/05_multimodel_agreement.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/06_spatial_structure.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/07_dual_track.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/08_de_analysis.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/09_pathway_enrichment.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/10_deconvolution.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/11_gene_predictability.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/12_within_patient.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/13_heldout_validation.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/14_encoder_consistency.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/15_bridge_gene_replication.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/16_summary_report.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/17_compute_figure_data.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/17b_compute_reproducibility.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/18_main_figures.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/19_supplementary_figures.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/20_coad_generalization.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/20_tables.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/21_idc_visium_generalization.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/22_interior_only_de.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/scripts/23_figure1_schematic.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__init__.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/__init__.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/data.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/de_analysis.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/deconvolution.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/discordance.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/embeddings.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/gene_annotations.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/matching.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/pathways.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/plotting.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/regressors.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/spatial.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/__pycache__/utils.cpython-312.pyc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/data.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/de_analysis.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/deconvolution.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/discordance.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/embeddings.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/gene_annotations.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/matching.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/pathways.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/plotting.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/regressors.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/spatial.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:clean_repo/src/utils.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original:Reviews/reviews.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:unique_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:saved_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:samples_in_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold0:patient_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold0:uni:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold0:uni:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold0:uni:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        19317,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold0:uni:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        19317,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold0:uni:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        19317,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold0:virchow2:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold0:virchow2:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold0:virchow2:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        19317,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold0:virchow2:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        19317,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold0:virchow2:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        19317,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold0:hoptimus0:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold0:hoptimus0:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold0:hoptimus0:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        19317,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold0:hoptimus0:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        19317,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold0:hoptimus0:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        19317,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold0:encoder_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold1:patient_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold1:uni:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold1:uni:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold1:uni:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        15357,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold1:uni:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        15357,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold1:uni:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        15357,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold1:virchow2:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold1:virchow2:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold1:virchow2:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        15357,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold1:virchow2:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        15357,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold1:virchow2:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        15357,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold1:hoptimus0:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold1:hoptimus0:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold1:hoptimus0:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        15357,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold1:hoptimus0:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        15357,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold1:hoptimus0:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        15357,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold1:encoder_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold2:patient_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold2:uni:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold2:uni:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold2:uni:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        18599,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold2:uni:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        18599,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold2:uni:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        18599,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold2:virchow2:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold2:virchow2:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold2:virchow2:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        18599,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold2:virchow2:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        18599,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold2:virchow2:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        18599,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold2:hoptimus0:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold2:hoptimus0:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold2:hoptimus0:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        18599,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold2:hoptimus0:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        18599,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold2:hoptimus0:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        18599,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold2:encoder_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold3:patient_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold3:uni:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold3:uni:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold3:uni:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        14436,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold3:uni:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        14436,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold3:uni:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        14436,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold3:virchow2:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold3:virchow2:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold3:virchow2:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        14436,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold3:virchow2:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        14436,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold3:virchow2:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        14436,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold3:hoptimus0:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold3:hoptimus0:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:fold3:hoptimus0:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        14436,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold3:hoptimus0:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        14436,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold3:hoptimus0:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        14436,
+        280
+      ]
+    },
+    {
+      "check": "biomarkers:fold3:encoder_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:each_section_tested_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        8021,
+        1536
+      ]
+    },
+    {
+      "check": "TENX193:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        8021,
+        2560
+      ]
+    },
+    {
+      "check": "TENX193:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        8021,
+        1536
+      ]
+    },
+    {
+      "check": "TENX193:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX193:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        6347,
+        1536
+      ]
+    },
+    {
+      "check": "TENX192:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        6347,
+        2560
+      ]
+    },
+    {
+      "check": "TENX192:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        6347,
+        1536
+      ]
+    },
+    {
+      "check": "TENX192:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX192:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        4949,
+        1536
+      ]
+    },
+    {
+      "check": "TENX191:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        4949,
+        2560
+      ]
+    },
+    {
+      "check": "TENX191:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        4949,
+        1536
+      ]
+    },
+    {
+      "check": "TENX191:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX191:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        9103,
+        1536
+      ]
+    },
+    {
+      "check": "TENX196:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        9103,
+        2560
+      ]
+    },
+    {
+      "check": "TENX196:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        9103,
+        1536
+      ]
+    },
+    {
+      "check": "TENX196:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX196:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        6254,
+        1536
+      ]
+    },
+    {
+      "check": "TENX195:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        6254,
+        2560
+      ]
+    },
+    {
+      "check": "TENX195:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        6254,
+        1536
+      ]
+    },
+    {
+      "check": "TENX195:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX195:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        2259,
+        1536
+      ]
+    },
+    {
+      "check": "TENX199:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        2259,
+        2560
+      ]
+    },
+    {
+      "check": "TENX199:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        2259,
+        1536
+      ]
+    },
+    {
+      "check": "TENX199:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX199:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        7221,
+        1536
+      ]
+    },
+    {
+      "check": "TENX198:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        7221,
+        2560
+      ]
+    },
+    {
+      "check": "TENX198:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        7221,
+        1536
+      ]
+    },
+    {
+      "check": "TENX198:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX198:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        9119,
+        1536
+      ]
+    },
+    {
+      "check": "TENX197:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        9119,
+        2560
+      ]
+    },
+    {
+      "check": "TENX197:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        9119,
+        1536
+      ]
+    },
+    {
+      "check": "TENX197:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX197:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        4291,
+        1536
+      ]
+    },
+    {
+      "check": "TENX202:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        4291,
+        2560
+      ]
+    },
+    {
+      "check": "TENX202:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        4291,
+        1536
+      ]
+    },
+    {
+      "check": "TENX202:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX202:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        5488,
+        1536
+      ]
+    },
+    {
+      "check": "TENX201:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        5488,
+        2560
+      ]
+    },
+    {
+      "check": "TENX201:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        5488,
+        1536
+      ]
+    },
+    {
+      "check": "TENX201:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX201:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        4657,
+        1536
+      ]
+    },
+    {
+      "check": "TENX200:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        4657,
+        2560
+      ]
+    },
+    {
+      "check": "TENX200:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        4657,
+        1536
+      ]
+    },
+    {
+      "check": "TENX200:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX200:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "biomarkers:modeled_panel_equals_noncontrol_intersection",
+      "passed": true,
+      "detail": {
+        "extra_raw_genes": [],
+        "extra_modeled_genes": []
+      }
+    },
+    {
+      "check": "10x_janesick:unique_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:saved_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:samples_in_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold0:patient_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold0:uni:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold0:uni:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold0:uni:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        40838,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold0:uni:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        40838,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold0:uni:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        40838,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold0:virchow2:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold0:virchow2:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold0:virchow2:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        40838,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold0:virchow2:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        40838,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold0:virchow2:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        40838,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold0:hoptimus0:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold0:hoptimus0:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold0:hoptimus0:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        40838,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold0:hoptimus0:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        40838,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold0:hoptimus0:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        40838,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold0:encoder_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold1:patient_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold1:uni:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold1:uni:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold1:uni:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        15310,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold1:uni:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        15310,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold1:uni:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        15310,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold1:virchow2:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold1:virchow2:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold1:virchow2:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        15310,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold1:virchow2:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        15310,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold1:virchow2:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        15310,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold1:hoptimus0:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold1:hoptimus0:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold1:hoptimus0:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        15310,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold1:hoptimus0:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        15310,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold1:hoptimus0:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        15310,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold1:encoder_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold2:patient_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold2:uni:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold2:uni:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold2:uni:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        6975,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold2:uni:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        6975,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold2:uni:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        6975,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold2:virchow2:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold2:virchow2:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold2:virchow2:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        6975,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold2:virchow2:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        6975,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold2:virchow2:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        6975,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold2:hoptimus0:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold2:hoptimus0:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold2:hoptimus0:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        6975,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold2:hoptimus0:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        6975,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold2:hoptimus0:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        6975,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold2:encoder_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold3:patient_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold3:uni:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold3:uni:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold3:uni:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        3501,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold3:uni:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        3501,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold3:uni:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        3501,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold3:virchow2:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold3:virchow2:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold3:virchow2:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        3501,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold3:virchow2:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        3501,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold3:virchow2:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        3501,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold3:hoptimus0:unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold3:hoptimus0:only_test_sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:fold3:hoptimus0:test_targets.npy:shape",
+      "passed": true,
+      "detail": [
+        3501,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold3:hoptimus0:test_predictions.npy:shape",
+      "passed": true,
+      "detail": [
+        3501,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold3:hoptimus0:test_residuals.npy:shape",
+      "passed": true,
+      "detail": [
+        3501,
+        280
+      ]
+    },
+    {
+      "check": "10x_janesick:fold3:encoder_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:each_section_tested_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        20549,
+        1536
+      ]
+    },
+    {
+      "check": "TENX99:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        20549,
+        2560
+      ]
+    },
+    {
+      "check": "TENX99:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        20549,
+        1536
+      ]
+    },
+    {
+      "check": "TENX99:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX99:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        20289,
+        1536
+      ]
+    },
+    {
+      "check": "TENX98:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        20289,
+        2560
+      ]
+    },
+    {
+      "check": "TENX98:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        20289,
+        1536
+      ]
+    },
+    {
+      "check": "TENX98:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX98:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        7718,
+        1536
+      ]
+    },
+    {
+      "check": "TENX97:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        7718,
+        2560
+      ]
+    },
+    {
+      "check": "TENX97:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        7718,
+        1536
+      ]
+    },
+    {
+      "check": "TENX97:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX97:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        7592,
+        1536
+      ]
+    },
+    {
+      "check": "TENX95:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        7592,
+        2560
+      ]
+    },
+    {
+      "check": "TENX95:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        7592,
+        1536
+      ]
+    },
+    {
+      "check": "TENX95:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TENX95:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        4074,
+        1536
+      ]
+    },
+    {
+      "check": "NCBI785:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        4074,
+        2560
+      ]
+    },
+    {
+      "check": "NCBI785:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        4074,
+        1536
+      ]
+    },
+    {
+      "check": "NCBI785:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI785:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        2901,
+        1536
+      ]
+    },
+    {
+      "check": "NCBI784:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        2901,
+        2560
+      ]
+    },
+    {
+      "check": "NCBI784:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        2901,
+        1536
+      ]
+    },
+    {
+      "check": "NCBI784:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI784:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:unique_raw_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:unique_raw_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:all_modeled_genes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:patch_barcodes_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:patch_id_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:unique_patch_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:patches_subset_raw",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:unique_score_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:score_coords_finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:score_prefixed_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:uni:embedding_shape",
+      "passed": true,
+      "detail": [
+        3501,
+        1536
+      ]
+    },
+    {
+      "check": "NCBI783:uni:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:uni:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:uni:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:uni:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:virchow2:embedding_shape",
+      "passed": true,
+      "detail": [
+        3501,
+        2560
+      ]
+    },
+    {
+      "check": "NCBI783:virchow2:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:virchow2:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:virchow2:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:virchow2:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:hoptimus0:embedding_shape",
+      "passed": true,
+      "detail": [
+        3501,
+        1536
+      ]
+    },
+    {
+      "check": "NCBI783:hoptimus0:unique_embedding_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:hoptimus0:patch_embedding_id_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:hoptimus0:finite_alignment_reproduces_test_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:hoptimus0:score_test_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NCBI783:metadata_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "10x_janesick:modeled_panel_equals_noncontrol_intersection",
+      "passed": true,
+      "detail": {
+        "extra_raw_genes": [],
+        "extra_modeled_genes": []
+      }
+    },
+    {
+      "check": "inspected_inputs_size_mtime_unchanged_during_run",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

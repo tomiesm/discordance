@@ -1,0 +1,200 @@
+{
+  "sklearn": "1.4.0",
+  "n_models": 24,
+  "max_difference": 1.1102230246251565e-16,
+  "warnings": 0,
+  "details": [
+    {
+      "cohort": "biomarkers",
+      "encoder": "uni",
+      "fold": 0,
+      "variance_retained": 0.8193633556365967,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "virchow2",
+      "fold": 0,
+      "variance_retained": 0.9090337157249451,
+      "csv_difference": 1.1102230246251565e-16,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "hoptimus0",
+      "fold": 0,
+      "variance_retained": 0.8593184351921082,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "uni",
+      "fold": 1,
+      "variance_retained": 0.8252772092819214,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "virchow2",
+      "fold": 1,
+      "variance_retained": 0.9134003520011902,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "hoptimus0",
+      "fold": 1,
+      "variance_retained": 0.8665375113487244,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "uni",
+      "fold": 2,
+      "variance_retained": 0.8167415261268616,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "virchow2",
+      "fold": 2,
+      "variance_retained": 0.9104815721511841,
+      "csv_difference": 1.1102230246251565e-16,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "hoptimus0",
+      "fold": 2,
+      "variance_retained": 0.8646663427352905,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "uni",
+      "fold": 3,
+      "variance_retained": 0.8184976577758789,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "virchow2",
+      "fold": 3,
+      "variance_retained": 0.9097137451171875,
+      "csv_difference": 1.1102230246251565e-16,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "biomarkers",
+      "encoder": "hoptimus0",
+      "fold": 3,
+      "variance_retained": 0.8670055270195007,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "uni",
+      "fold": 0,
+      "variance_retained": 0.8417154550552368,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "virchow2",
+      "fold": 0,
+      "variance_retained": 0.9265750050544739,
+      "csv_difference": 1.1102230246251565e-16,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "hoptimus0",
+      "fold": 0,
+      "variance_retained": 0.8837761878967285,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "uni",
+      "fold": 1,
+      "variance_retained": 0.846809983253479,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "virchow2",
+      "fold": 1,
+      "variance_retained": 0.934623122215271,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "hoptimus0",
+      "fold": 1,
+      "variance_retained": 0.8793385028839111,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "uni",
+      "fold": 2,
+      "variance_retained": 0.8504009246826172,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "virchow2",
+      "fold": 2,
+      "variance_retained": 0.9327200055122375,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "hoptimus0",
+      "fold": 2,
+      "variance_retained": 0.8775866627693176,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "uni",
+      "fold": 3,
+      "variance_retained": 0.846214234828949,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "virchow2",
+      "fold": 3,
+      "variance_retained": 0.9327309727668762,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    },
+    {
+      "cohort": "10x_janesick",
+      "encoder": "hoptimus0",
+      "fold": 3,
+      "variance_retained": 0.8759406805038452,
+      "csv_difference": 0.0,
+      "load_warning_count": 0
+    }
+  ]
+}

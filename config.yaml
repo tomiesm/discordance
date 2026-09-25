@@ -1,5 +1,5 @@
 # Discordance Project Configuration
-# Two-panel discovery/validation design: IDC Xenium
+# Two-panel discovery/validation design: breast carcinoma Xenium
 #
 # All paths are relative to the repository root.
 # Run scripts/00_download.py first to populate data/hest/.
@@ -15,8 +15,8 @@ output_dir: "./outputs"
 hest_repo_id: "MahmoodLab/hest"
 
 # --- Two-panel cohort structure ---
-# Discovery: Biomarkers cohort (280 genes, 11 samples, 4 patients)
-# Validation: 10x Public + Janesick cohort (280 different genes, 7 samples, 4 patients)
+# Discovery: Biomarkers cohort (280 genes, 11 sections from 11 donors; 4 holdout groups)
+# Validation: 10x Public + Janesick cohort (280 genes, 7 sections, 4 donor groups)
 # Bridge: 90 genes shared between panels
 
 cohorts:
@@ -34,6 +34,8 @@ cohorts:
       - TENX202
       - TENX201
       - TENX200
+    # Historical P03-P06 keys define prediction holdouts, not biological patients.
+    # They correspond to B01-B04; use the revision specimen registry for donors.
     patient_mapping:
       P03: [TENX193, TENX192, TENX191]
       P04: [TENX196, TENX195]

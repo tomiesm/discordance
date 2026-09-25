@@ -1,0 +1,48 @@
+{
+  "version": "emt_cells_v1",
+  "status": "Exploratory feasibility and candidate-state analysis; choices fixed before examining EMT outcomes, not external preregistration",
+  "seed": 20260920,
+  "samples": {"NCBI785": "P07", "NCBI784": "P07", "NCBI783": "P08"},
+  "source_annotations": {
+    "NCBI785": "GSM7780153_Xenium_R1_Fig1-5_supervised.csv.gz",
+    "NCBI784": "GSM7780154_Xenium_R2_Fig1-5_supervised.csv.gz",
+    "NCBI783": "GSM7780155_Xenium_Fig_6_unsupervised.csv.gz"
+  },
+  "identity": "Exact source cell-ID matching; published tumor/DCIS classes are source-supported identity proxies, not genotype-proven malignancy. Hybrid, transitional and unlabeled categories remain separate.",
+  "transcript_qv_minimum": 20,
+  "cell_minimum_biological_transcripts": 20,
+  "cell_minimum_detected_biological_genes": 10,
+  "control_prefixes": ["NegControl", "Unassigned", "BLANK", "Deprecated", "antisense_"],
+  "normalization": "log1p(10000*counts/total biological counts); same measured panel for reference predictor and Xenium input; primary signatures are equal gene means",
+  "epithelial_genes": ["EPCAM", "CDH1", "KRT8", "KRT18", "KRT19", "KRT7", "CLDN3", "CLDN4", "OCLN", "TJP1", "DSP", "MUC1"],
+  "canonical_emt_tfs": ["SNAI1", "SNAI2", "ZEB1", "ZEB2", "TWIST1", "TWIST2"],
+  "emt_program": "HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION from the unchanged original h.all.v2024.1.Hs.symbols.gmt; an EMT-associated transcriptomic proxy, not a validated cell-state label",
+  "reference": "Wu et al. GSE176078, 100064 annotated cells; cancer epithelial cells evaluated separately from other lineages",
+  "reference_target": "Mean log-normalized expression of Hallmark EMT genes absent from the Xenium panel; epithelial target uses measured reference genes on its separate axis",
+  "reference_models": {
+    "direct": "Equal mean of measured Hallmark EMT genes in the panel; no trained weights",
+    "learned": "StandardScaler then Ridge(alpha=100); all panel genes present in reference; training cancer cells only; equal total donor weight; no tuning",
+    "validation": "Leave one reference donor out; preprocessing and training exclude that donor; comparisons only within cancer epithelial cells",
+    "minimum_cancer_cells_per_donor": 100,
+    "maximum_training_cells_per_donor": 3000,
+    "training_subsample": "Fixed seed per donor, used only if donor exceeds the fixed cap",
+    "feasibility_gate": "At least 10 evaluable donors; learned-score median within-donor Spearman >=0.30 and at least 70% of donors have Spearman >=0.30 against the gene-disjoint target. This is a prespecified operational gate, not a biological validation standard.",
+    "calibration": "Passing reference performance is necessary but insufficient; external-reference score is not evidence for directly measured absent genes or successful transfer to Xenium. Do not treat it as EMT ground truth."
+  },
+  "direct_tf_candidate": "QC-pass source tumor/DCIS cell with >=1 transcript in at least 2 measured canonical EMT TF genes and >=1 measured epithelial gene. This is a TF/epithelial coexpression candidate, not an EMT diagnosis.",
+  "nuclear_sensitivity": "Repeat TF coexpression counts using overlaps_nucleus==1; losing the criterion may reflect real cytoplasmic transcripts as well as assignment artifacts",
+  "spatial_candidate_display": {
+    "radius_um": 100,
+    "sensitivity_radii_um": [50, 150],
+    "minimum_tumor_cells_in_neighborhood": 20,
+    "minimum_tf_candidates_in_neighborhood": 5,
+    "minimum_candidate_fraction": 0.10,
+    "description": "Fixed descriptive neighborhoods of measured TF coexpression among source-supported tumor cells; not fixed top quantiles, EMT annotations or significant hotspots. No EMT-zone call if identity/observability is unsupported."
+  },
+  "spatial_context": "Published cell identities, local stromal/myoepithelial fractions, cell/transcript density, and original histology coordinates; no cell-ID substitution or cell-state imputation without explicit labeling",
+  "residual_evaluation": "Descriptive within-section associations of cell-level coexpression prevalence with existing corrected score; use residual scores excluding all TF, epithelial, and Hallmark genes to reduce direct arithmetic reuse; summarize separately by section and patient, no spot/cell-independent p-values. Conditional analyses adjust composition, depth and tumor cell count; no generalization claim from two patients.",
+  "visium_next_stage": "Verify NCBI776 against source GSM7782699 and record whole-transcriptome marker availability/reference compatibility; broader tumor-state modeling requires valid identity/mixture estimates and verified patient grouping",
+  "fail_policy": "Save all negative findings and maps. Do not change genes, thresholds, reference or labels to recover EMT. If observability fails, retain TF evidence maps and a concrete broader-assay feasibility report, and withhold EMT-zone labels.",
+  "verification": ["Original-input hashes", "Raw transcript counts versus independently downloaded vendor matrices", "Cell ID and barcode alignment", "Nuclear counts subset of total counts", "Source annotation coverage", "Gene-disjoint reference target", "Entire reference donor excluded", "Independent regression check", "Candidate-count and coordinate checks"],
+  "limits": ["Only two Xenium patients", "Gene expression does not establish temporal EMT", "Source annotations are computational/pathology-informed proxies", "Published transitional/boundary cells are not automatically EMT", "Stromal/myoepithelial mixtures and segmentation artifacts remain alternative explanations", "No additional tissue or staining availability has been established"]
+}

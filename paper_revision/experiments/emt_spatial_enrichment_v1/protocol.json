@@ -1,0 +1,30 @@
+{
+  "version": "emt_spatial_enrichment_v1",
+  "purpose": "Test spatial concentration of the existing epithelial-marker/EMT-TF coexpression phenotype; no new EMT classifier and no discordance optimization",
+  "timing": "Post-hoc continuation after the maps and coexpression counts were examined; specification frozen before computing these permutation results, not external preregistration",
+  "samples": {"NCBI785": "P07", "NCBI784": "P07", "NCBI783": "P08"},
+  "input": "Unchanged emt_cells_v1/results/{sample}/cell_evidence.parquet and measured_cells.h5ad",
+  "population": "QC-pass published source tumor/DCIS classes, exactly as defined in emt_cells_v1; native vendor cell centroids",
+  "marks": "Existing tumor_tf_candidate; nuclear-only sensitivity uses existing tumor_nuclear_tf_candidate",
+  "radii_um": [50, 100, 150],
+  "primary_radius_um": 100,
+  "permutations": 1999,
+  "batch_size": 32,
+  "seed": 2026092002,
+  "nulls": {
+    "global": "Uniform random labeling among all QC source-tumor cells within each section, conditional on total number of positives. Locations, tumor density, tissue geometry and total positive count stay fixed.",
+    "technical": "Uniform random labeling within strata. Exact source label first, then recursive quantile splits of non-marker total counts (5), cell area (3), and non-marker detected genes (3). Splits depend on covariates only, not marks/coordinates. Minimum child size 30; duplicate quantile cuts collapse; a proposed split with any child smaller than 30 is not applied. Non-marker features exclude every predefined epithelial and EMT-TF gene.",
+    "context": "Technical strata further split on local stromal fraction (3), then local myoepithelial fraction (2), with the same minimum-child rule. Fractions use all QC cells within 100 micrometers. This asks about organization beyond measured context and may condition away genuine microenvironmental associations; report alongside other nulls."
+  },
+  "primary_test": "One-sided excess count of unordered positive-positive cell pairs separated by <=100 micrometers under the technical-stratified null, excluding self-pairs. Report observed/null-mean ratio and permutation reference intervals. Holm correction across the three section tests; sections from P07 are not independent patients.",
+  "secondary_statistics": [
+    "Number of qualifying centers using the original neighborhood rule (>=20 tumor cells, >=5 positives, fraction >=0.10), recomputed for every permutation",
+    "Maximum standardized local positive count across every QC tumor-cell center with >=20 tumor neighbors; exact conditional mean and variance from independent stratum-wise hypergeometric counts"
+  ],
+  "local_inference": "Primary mark at 100 micrometers: compare each observed local standardized count with the distribution of the maximum over all eligible centers in each permutation. Report section-wide scan-adjusted p and conservative min(1,3*p) across sections. A preexisting component is supported only in the limited sense that it contains a center passing this scan comparison; not every cell or the whole component's area is validated. This is conditional random-labeling inference under a complete null, not a claim of strong error control under arbitrary spatial alternatives.",
+  "sensitivities": "All three radii and all three nulls for primary marks; nuclear-only marks at 100 micrometers under technical strata (same strata, not separately adjusted for nuclear RNA depth). Retain every result. Holm adjustment separately over all 30 configurations for each secondary statistic family and all pair-count configurations, in addition to the three-test primary correction.",
+  "pvalue": "(1 + number of null statistics >= observed)/(1999 + 1), one-sided; minimum 0.0005; do not report zero. Counts use exact integer comparisons; standardized statistics allow floating-point tolerance 1e-10.",
+  "diagnostics": "Stratum sizes, numbers of movable positive labels, observed versus permuted positive-cell mean covariates; stratification controls bins, not every continuous covariate exactly. Record these rather than modifying bins after results.",
+  "verification": "Input hashes; independent brute-force neighborhood, pair-count and hypergeometric-moment checks; small exhaustive random-labeling enumeration; permutation count preservation; graph agreement with original neighborhood counts; exact analytic expected pair count versus Monte Carlo distribution; original-file preservation",
+  "interpretation": "A positive test supports spatial organization of measured EMT-associated coexpression relative to its explicit null. It does not by itself establish an EMT mechanism, generalization beyond two patients, or a discordance association. A negative test is retained without changing phenotype or thresholds. Simple and context-adjusted nulls answer different questions."
+}

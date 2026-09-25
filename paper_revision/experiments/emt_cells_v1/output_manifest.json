@@ -1,0 +1,254 @@
+{
+  "figures/NCBI783_cell_evidence.png": {
+    "bytes": 1281971,
+    "sha256": "fef8c5493a603a5d36ed97915c1e8df0dcab4a96eff9351a3403ebffa1ad1fca"
+  },
+  "figures/NCBI783_component0_transcripts.png": {
+    "bytes": 1842576,
+    "sha256": "ce5d724d569f28cc9dac67b9a3c4d8c5b1c2ad75980ca16a318c8dab465145db"
+  },
+  "figures/NCBI783_histology_context.png": {
+    "bytes": 1910030,
+    "sha256": "9e21102baed841bc9116aebab611a8f3134b07249c338169f576343dca6ace61"
+  },
+  "figures/NCBI783_measured_genes.png": {
+    "bytes": 3389314,
+    "sha256": "63170f23a83b8775eb298f7227e0f4f4231c730cb49dce2f6aeadafb36525ab5"
+  },
+  "figures/NCBI784_cell_evidence.png": {
+    "bytes": 1330958,
+    "sha256": "8911f5b08e535c733ec26fe952da31eb79dd0265bbff48ac41e5aaaa0ef8fdbd"
+  },
+  "figures/NCBI784_component0_transcripts.png": {
+    "bytes": 1097723,
+    "sha256": "e424851ba5ff9fb7c8a481013ec030bcae7fc9d9f12ee7dd1d9e429aa19a73cd"
+  },
+  "figures/NCBI784_histology_context.png": {
+    "bytes": 3416020,
+    "sha256": "908687c4cd87de3bbd2fa4cda4e58b53d1262ef42bbc0c54712ed28b5d7a6328"
+  },
+  "figures/NCBI784_measured_genes.png": {
+    "bytes": 3826244,
+    "sha256": "7a2d1b26cbebd761145041a2b2f26e0e399a1d0d7a2d2c508dd0b240100b6ac4"
+  },
+  "figures/NCBI785_cell_evidence.png": {
+    "bytes": 1848023,
+    "sha256": "f6f867c1dffa13222b05b74d10471fe85baa1d0fe190031bc68a217b8cd6a31f"
+  },
+  "figures/NCBI785_component0_transcripts.png": {
+    "bytes": 895184,
+    "sha256": "129870286ab3c2005d89ea402d9e1ba6d4979bd672b6983ec32433801fe40d18"
+  },
+  "figures/NCBI785_histology_context.png": {
+    "bytes": 1794500,
+    "sha256": "e9ecd262522ed637f240c3e28faa3d6f737ab1c02a8671543bd771e3c0bb2600"
+  },
+  "figures/NCBI785_measured_genes.png": {
+    "bytes": 4333201,
+    "sha256": "04ca6d64d8267ec609fd3994be34c3b56ea397bb6d93d68c96d08ea3619ef208"
+  },
+  "figures/all_candidate_transcript_evidence.pdf": {
+    "bytes": 8619903,
+    "sha256": "eb58dc63f5435d5d71642465791bf25e311dfcf0dc268e9e2c982b8dbe190d33"
+  },
+  "figures/all_section_evidence.pdf": {
+    "bytes": 7932572,
+    "sha256": "74a37d65f515a4200f6c4ec19c7634604965318e49a6f4c1e3cb6c3160805e0a"
+  },
+  "figures/overview.pdf": {
+    "bytes": 25703,
+    "sha256": "75c2a62796cbd9f4560654de7493833e7f34318f10e6b292c2fa47f616811386"
+  },
+  "figures/overview.png": {
+    "bytes": 249770,
+    "sha256": "0c44b95890c976beefca2b6f44de7fdc16c6fc32dddca49c96ad1daf4295ddbb"
+  },
+  "results/CELL_EVIDENCE_SUMMARY.json": {
+    "bytes": 2240,
+    "sha256": "6e13a1e722ed50528e1fce4e7e09032e800ca65a6669767a22015c90f4585fc2"
+  },
+  "results/NCBI776_broader_expression_evidence.parquet": {
+    "bytes": 732313,
+    "sha256": "5113418ee542587af942f9f74a49348b8b49c8798bafafd10057c0d45de73d6b"
+  },
+  "results/NCBI776_marker_coverage.csv": {
+    "bytes": 490,
+    "sha256": "e9eda7e134962139d5f1ea9e9fa108500ce48c62c789064b41f61873faf59dd8"
+  },
+  "results/NCBI783/CELL_ANALYSIS_COMPLETE.json": {
+    "bytes": 681,
+    "sha256": "8e87b2912e546ccb3458abd167eb19ebeba952f0dd1f30d213aaedc16c5078c3"
+  },
+  "results/NCBI783/COUNTS_VERIFIED.json": {
+    "bytes": 1517,
+    "sha256": "1a2ce1bf1c1401aea27b7c911db0d6333179bc5308effa4907c9c70ed4ab61b3"
+  },
+  "results/NCBI783/cell_evidence.parquet": {
+    "bytes": 16318648,
+    "sha256": "c6066f7755e49d514d688bb769a2923caf42ff804cfa243ab37d040826aede9b"
+  },
+  "results/NCBI783/coordinate_controls.npz": {
+    "bytes": 353213,
+    "sha256": "e324e8c3c977f152cb5f317d2e52a8ed6fc7fa09416db3ae523153a2574febd8"
+  },
+  "results/NCBI783/measured_cells.h5ad": {
+    "bytes": 31220831,
+    "sha256": "ee2d57a0d0ced1523650fe9cc08def70ef95a8054fbdd450ddb1015d6b8cd15e"
+  },
+  "results/NCBI783/selected_measured_transcripts.parquet": {
+    "bytes": 9376975,
+    "sha256": "31841ef56f35f350a6b5cc0d026892bbce54ce0bf26a2a5f1cff9c94bf082c31"
+  },
+  "results/NCBI783/spot_residual_evidence.parquet": {
+    "bytes": 683465,
+    "sha256": "16d20e51954dbf3d012bb35fade15e60dc0f6623f81820d227543d427fd0c210"
+  },
+  "results/NCBI784/CELL_ANALYSIS_COMPLETE.json": {
+    "bytes": 693,
+    "sha256": "0214a8de344b5d4d4403a9fb11b6c1a60b1e8a1c6a4f5af6ef46fc893084fe72"
+  },
+  "results/NCBI784/COUNTS_VERIFIED.json": {
+    "bytes": 1434,
+    "sha256": "f50ab9bfe50d3e91d3d451525cb92627c55e4b770eeb392a0e399f446d401ce8"
+  },
+  "results/NCBI784/cell_evidence.parquet": {
+    "bytes": 14708549,
+    "sha256": "de8f3aa3d4eaa2af9e19c17e2bbe619b39a913c59c0aa83613ea3652d6070fdc"
+  },
+  "results/NCBI784/coordinate_controls.npz": {
+    "bytes": 723161,
+    "sha256": "a4c1a0708bc484c550c15d8d259b7f83e962790e7eb8001ff8992eb1e693debb"
+  },
+  "results/NCBI784/measured_cells.h5ad": {
+    "bytes": 32275796,
+    "sha256": "ab893e51f72dcff0e1b12da2ba9cadfd280d2dc6689dbe8d54e43df16a4c3dd5"
+  },
+  "results/NCBI784/selected_measured_transcripts.parquet": {
+    "bytes": 16770222,
+    "sha256": "7b454ceb94fc0d533d4f5c7aaf66482013add62ef2dd8398db22fe68ab7b59a8"
+  },
+  "results/NCBI784/spot_residual_evidence.parquet": {
+    "bytes": 583717,
+    "sha256": "9557172c1dcebaa9adf0e79bb603d2a464c53730285ab70f860e8c243e25945b"
+  },
+  "results/NCBI785/CELL_ANALYSIS_COMPLETE.json": {
+    "bytes": 694,
+    "sha256": "68dd6e90f4e4c068e4169659fc2b49f017ff8c4328fa0f8416abd1ed8eec2494"
+  },
+  "results/NCBI785/COUNTS_VERIFIED.json": {
+    "bytes": 1436,
+    "sha256": "1f92dd5d6f93a6c68e8f997e6eb20001d3fd3e9ab6367c208d562d3dd44e799b"
+  },
+  "results/NCBI785/cell_evidence.parquet": {
+    "bytes": 20048558,
+    "sha256": "09ee94669cb737803882634229ae2936500277a9ae51bcfc910ad28a77b3f170"
+  },
+  "results/NCBI785/coordinate_controls.npz": {
+    "bytes": 952900,
+    "sha256": "cc8c3bc7f98396d3ff037c085c7e86d67ef8cd6be36c746cb6ba3b8a0d1da075"
+  },
+  "results/NCBI785/measured_cells.h5ad": {
+    "bytes": 44753871,
+    "sha256": "51b2362df77ecba30b2c3e8b00d4e0bbf984f8eaec9900a2588a1cf8e8827613"
+  },
+  "results/NCBI785/selected_measured_transcripts.parquet": {
+    "bytes": 24543042,
+    "sha256": "d97cc20b35ea643cff51351db1f98dc96354801aa641a4dff302779a8dbd2a55"
+  },
+  "results/NCBI785/spot_residual_evidence.parquet": {
+    "bytes": 804100,
+    "sha256": "55c2fd3aebf79a94c8c54f6f7b7db2c69d84fa28660ac5a2481364ee38cfe2d5"
+  },
+  "results/REFERENCE_OBSERVABILITY.json": {
+    "bytes": 6585,
+    "sha256": "fceae0487862577cbf8e835bda4ed8dcf3b68ac4f7489cda673282f7ad38c055"
+  },
+  "results/VERIFICATION.json": {
+    "bytes": 1873,
+    "sha256": "0337e7877b90e023b9c9ce4d74a14c4aa2a99db8ae895cefae5dc85803c26202"
+  },
+  "results/VISIUM_COMPATIBILITY.json": {
+    "bytes": 426,
+    "sha256": "42b433cc646e012b21cb69d67e580265f76d95e2704c7e732f80e6ac54e89ad6"
+  },
+  "results/all_validation_disjoint_residual_scores.parquet": {
+    "bytes": 4264627,
+    "sha256": "6565c77aef13d39727532c2ff7480eef4ca9a8b3b6239c7bc2e0ed6b1c8c1272"
+  },
+  "results/candidate_neighborhood_components.csv": {
+    "bytes": 6128,
+    "sha256": "5ace982162805b6db90cb9563ce006defa291d3f1da1d750979f7c3cecd8eb1e"
+  },
+  "results/count_verification.json": {
+    "bytes": 4689,
+    "sha256": "bc89988e13de7a189c8e882356870eefdb12b362263d5fe1eefdf537f264ad32"
+  },
+  "results/disjoint_residual_definition.json": {
+    "bytes": 3993,
+    "sha256": "01d1863a383813283b9aaf9fd58cba93ca2f615cff56feb036d6e7b998f1eaaf"
+  },
+  "results/panel280_reference_folds.json": {
+    "bytes": 459721,
+    "sha256": "8c3fdf40b7b25143db8997520362ffd48105159489b5793af1a957d1ef037c15"
+  },
+  "results/panel280_reference_model.joblib": {
+    "bytes": 36815,
+    "sha256": "ca33ce9f3d7393b8757be2397bbe60e6b59ce6e27b0a84e6b5ee5662cbc0000b"
+  },
+  "results/panel313_reference_folds.json": {
+    "bytes": 514496,
+    "sha256": "56a2effb5ecd9dd6276a3921e1c2b67294b17ae70dff7624fff00b4313bee42a"
+  },
+  "results/panel313_reference_model.joblib": {
+    "bytes": 40910,
+    "sha256": "08f248224a7c575e6d33170ef9633f0d2728d5e2723e6d40dea338c7a7048d0b"
+  },
+  "results/posthoc_cell_context_diagnostics.csv": {
+    "bytes": 836,
+    "sha256": "3f7e89083855eaefce26d8064faad36030d18ae3029eaac4c26c282330612a4c"
+  },
+  "results/posthoc_reference_lineage_diagnostics.csv": {
+    "bytes": 33005,
+    "sha256": "8996ce6f4ff31389e455f27562d77321e0baa2cc9f0200a0056e4a3a4ab7da4a"
+  },
+  "results/reference_cell_programs.parquet": {
+    "bytes": 7889109,
+    "sha256": "8591c014e9cf02e63b0ee7c553ec389f582ac4d95b92090e528a57ca74c70b2b"
+  },
+  "results/reference_depth_sensitivity.csv": {
+    "bytes": 1710,
+    "sha256": "8e68a659079aa1f80270b753ae78defc100bd78bd385217bbd9f5495572c1cd2"
+  },
+  "results/reference_donor_performance.csv": {
+    "bytes": 4271,
+    "sha256": "a96190adfce14befbe9fa547c95b77782d9a4dd40fa50e0e5b58231aeaf218c9"
+  },
+  "results/reference_metadata.json": {
+    "bytes": 1163,
+    "sha256": "84109516d5c51636009ff98d7165d16913fd00f749d2727375da5e1e01827804"
+  },
+  "results/reference_program_coverage.csv": {
+    "bytes": 485,
+    "sha256": "17b43b1de9a58187f206369b16a10b07bf0f68ad65aafd2def4eceaebe448542"
+  },
+  "results/residual_associations.csv": {
+    "bytes": 5980,
+    "sha256": "3087f8ebda8d2da662b4b3c33db9031b72a9b3393241556f5da914a610bd0d4b"
+  },
+  "results/source_label_evidence.csv": {
+    "bytes": 7120,
+    "sha256": "81ebc2b295ca3090d90efa01b5850e84d12b678a61bf93c5ad484f920c6400dc"
+  },
+  "results/spatial_scale_sensitivity.csv": {
+    "bytes": 266,
+    "sha256": "1fe4d2ffac66637e07bdaa25d42a4ee7ddf0d444601bf032666c2e94e93c5a12"
+  },
+  "results/spot_assignment.json": {
+    "bytes": 960,
+    "sha256": "92576a8f0a79a5f77cbf6477b99644c330142c354cb0c2cb0553251e41ec3128"
+  },
+  "results/wu_reference.h5ad": {
+    "bytes": 407483183,
+    "sha256": "490691b7f91d88ee6847c0058151edb4e2fecfd38602e7f2c4fb1c847cf40bce"
+  }
+}

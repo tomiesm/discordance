@@ -1,0 +1,905 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "check": "biomarkers/uni_ridge/TENX193:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX192:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX191:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX196:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX195:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX199:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX198:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX197:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX202:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX201:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_ridge/TENX200:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX193:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX192:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX191:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX196:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX195:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX199:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX198:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX197:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX202:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX201:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_xgboost/TENX200:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX193:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX192:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX191:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX196:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX195:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX199:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX198:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX197:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX202:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX201:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/uni_mlp/TENX200:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX193:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX192:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX191:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX196:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX195:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX199:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX198:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX197:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX202:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX201:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_ridge/TENX200:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX193:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX192:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX191:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX196:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX195:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX199:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX198:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX197:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX202:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX201:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_xgboost/TENX200:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX193:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX192:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX191:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX196:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX195:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX199:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX198:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX197:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX202:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX201:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/virchow2_mlp/TENX200:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX193:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX192:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX191:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX196:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX195:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX199:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX198:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX197:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX202:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX201:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_ridge/TENX200:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX193:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX192:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX191:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX196:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX195:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX199:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX198:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX197:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX202:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX201:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_xgboost/TENX200:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX193:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX192:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX191:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX196:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX195:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX199:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX198:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX197:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX202:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX201:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "biomarkers/hoptimus0_mlp/TENX200:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "TENX193:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191:original_moran",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "TENX196:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202:original_moran",
+      "max_abs": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_ridge/TENX99:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_ridge/TENX98:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_ridge/TENX97:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_ridge/TENX95:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_ridge/NCBI785:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_ridge/NCBI784:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_ridge/NCBI783:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_xgboost/TENX99:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_xgboost/TENX98:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_xgboost/TENX97:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_xgboost/TENX95:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_xgboost/NCBI785:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_xgboost/NCBI784:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_xgboost/NCBI783:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_mlp/TENX99:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_mlp/TENX98:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_mlp/TENX97:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_mlp/TENX95:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_mlp/NCBI785:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_mlp/NCBI784:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/uni_mlp/NCBI783:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_ridge/TENX99:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_ridge/TENX98:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_ridge/TENX97:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_ridge/TENX95:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_ridge/NCBI785:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_ridge/NCBI784:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_ridge/NCBI783:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_xgboost/TENX99:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_xgboost/TENX98:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_xgboost/TENX97:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_xgboost/TENX95:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_xgboost/NCBI785:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_xgboost/NCBI784:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_xgboost/NCBI783:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_mlp/TENX99:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_mlp/TENX98:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_mlp/TENX97:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_mlp/TENX95:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_mlp/NCBI785:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_mlp/NCBI784:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/virchow2_mlp/NCBI783:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_ridge/TENX99:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_ridge/TENX98:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_ridge/TENX97:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_ridge/TENX95:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_ridge/NCBI785:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_ridge/NCBI784:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_ridge/NCBI783:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_xgboost/TENX99:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_xgboost/TENX98:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_xgboost/TENX97:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_xgboost/TENX95:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_xgboost/NCBI785:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_xgboost/NCBI784:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_xgboost/NCBI783:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_mlp/TENX99:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_mlp/TENX98:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_mlp/TENX97:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_mlp/TENX95:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_mlp/NCBI785:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_mlp/NCBI784:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick/hoptimus0_mlp/NCBI783:original_raw_half",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "TENX99:original_moran",
+      "max_abs": 0.0,
+      "pass": true
+    },
+    {
+      "check": "TENX98:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX97:original_moran",
+      "max_abs": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "check": "TENX95:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784:original_moran",
+      "max_abs": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783:original_moran",
+      "max_abs": 0.0,
+      "pass": true
+    }
+  ]
+}

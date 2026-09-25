@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-20T09:22:19.274487+00:00",
+  "files": {
+    "/media/tmk-gpu/SSD2/discordance/paper_revision/experiments/emt_cells_v1/results/NCBI785/cell_evidence.parquet": "09ee94669cb737803882634229ae2936500277a9ae51bcfc910ad28a77b3f170",
+    "/media/tmk-gpu/SSD2/discordance/paper_revision/experiments/emt_cells_v1/results/NCBI785/measured_cells.h5ad": "51b2362df77ecba30b2c3e8b00d4e0bbf984f8eaec9900a2588a1cf8e8827613",
+    "/media/tmk-gpu/SSD2/discordance/paper_revision/experiments/emt_cells_v1/results/NCBI784/cell_evidence.parquet": "de8f3aa3d4eaa2af9e19c17e2bbe619b39a913c59c0aa83613ea3652d6070fdc",
+    "/media/tmk-gpu/SSD2/discordance/paper_revision/experiments/emt_cells_v1/results/NCBI784/measured_cells.h5ad": "ab893e51f72dcff0e1b12da2ba9cadfd280d2dc6689dbe8d54e43df16a4c3dd5",
+    "/media/tmk-gpu/SSD2/discordance/paper_revision/experiments/emt_cells_v1/results/NCBI783/cell_evidence.parquet": "c6066f7755e49d514d688bb769a2923caf42ff804cfa243ab37d040826aede9b",
+    "/media/tmk-gpu/SSD2/discordance/paper_revision/experiments/emt_cells_v1/results/NCBI783/measured_cells.h5ad": "ee2d57a0d0ced1523650fe9cc08def70ef95a8054fbdd450ddb1015d6b8cd15e"
+  },
+  "protocol_sha256": "995f85fd69cde0acaaf37bad5381c10d23bbe700059d323ddf8e99fbc3b1ffdd"
+}

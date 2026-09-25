@@ -1,0 +1,24 @@
+{
+  "explicit_estimator_max_abs_error": 2.0816681711721685e-16,
+  "simulations": [
+    {
+      "scenario": "independent_blocks",
+      "block_AR_correlation": 0,
+      "n_datasets": 200,
+      "n_bootstrap": 399,
+      "true_mean_effect": 0.5,
+      "coverage_95_percentile_interval": 0.945,
+      "mean_estimate": 0.5189508197796548
+    },
+    {
+      "scenario": "dependence_between_resampled_blocks",
+      "block_AR_correlation": 0.85,
+      "n_datasets": 200,
+      "n_bootstrap": 399,
+      "true_mean_effect": 0.5,
+      "coverage_95_percentile_interval": 0.635,
+      "mean_estimate": 0.4602834566111038
+    }
+  ],
+  "scope": "Basic estimator check and block-dependence stress test, not dataset-specific proof of coverage"
+}

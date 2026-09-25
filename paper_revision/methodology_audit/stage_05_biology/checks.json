@@ -1,0 +1,2665 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "check": "biomarkers:integer_count_recovery",
+      "max_round_error": 0.003622883117714082,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 2.80492445936531e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 2.804924464916425e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 7.947285984855057e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_E2F_TARGETS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 9.536743228455435e-09,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 3.178914398382915e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_HEME_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 2.9802322387695312e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 2.8049244704675402e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_MYC_TARGETS_V1:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.334883257905986e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_P53_PATHWAY:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 5.2981906528692946e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 6.811959418762115e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_UNFOLDED_PROTEIN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 1.362391881531977e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 5.298190663971525e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_UV_RESPONSE_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX193/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX192/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX191/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX196/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX195/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX199/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX198/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX197/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX202/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX201/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX200/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "10x_janesick:integer_count_recovery",
+      "max_round_error": 0.0005238225044195133,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 2.7815500894257106e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 1.6391277313232422e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_ADIPOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.768371586472142e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 9.536743172944284e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 8.344650259672903e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 2.3841858265427618e-08,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_ALLOGRAFT_REJECTION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 3.1789143895011307e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 1.986821489552426e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_ANDROGEN_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_ANGIOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_ANGIOGENESIS:legacy_score_reproduction",
+      "max_abs": 2.622604371449455e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_ANGIOGENESIS:legacy_score_reproduction",
+      "max_abs": 2.861022951883285e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_ANGIOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_ANGIOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_ANGIOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_ANGIOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 2.0590695504196788e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 2.0590695481992327e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 4.334883252354871e-08,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_APICAL_JUNCTION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 3.973643014631989e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 1.1920928955078125e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 1.3907750417985199e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 3.973643014631989e-08,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_APOPTOSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_CHOLESTEROL_HOMEOSTASIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_CHOLESTEROL_HOMEOSTASIS:legacy_score_reproduction",
+      "max_abs": 1.862645149230957e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_CHOLESTEROL_HOMEOSTASIS:legacy_score_reproduction",
+      "max_abs": 2.086162567138672e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_CHOLESTEROL_HOMEOSTASIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_CHOLESTEROL_HOMEOSTASIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_CHOLESTEROL_HOMEOSTASIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_CHOLESTEROL_HOMEOSTASIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 2.1192762589272718e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 1.5894571947505653e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 5.2981906528692946e-08,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_COAGULATION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 1.5326908675561413e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 1.4262540015685943e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_COMPLEMENT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 2.5096692946036114e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 1.3803180909377488e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 9.411259727087895e-08,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 2.509669272399151e-08,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 1.3004649757064612e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 3.0344182766484096e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_ESTROGEN_RESPONSE_EARLY:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 1.7339533031623944e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 1.40883705590511e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_ESTROGEN_RESPONSE_LATE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 2.9802322432104233e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_G2M_CHECKPOINT:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 1.907348633201078e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 2.682209014892578e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_GLYCOLYSIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 1.9371509552001953e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 1.825392246246338e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_HYPOXIA:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 2.210338909680587e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 1.1920928955078125e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_IL2_STAT5_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 1.7881393432617188e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 1.564621925354004e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_IL6_JAK_STAT3_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 2.086162567138672e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 1.7881393432617188e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_INFLAMMATORY_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 1.4156103134155273e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 1.3709068300005178e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_INTERFERON_GAMMA_RESPONSE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 2.980232238769531e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_KRAS_SIGNALING_DN:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 1.589457193917898e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 1.2045105290958702e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_KRAS_SIGNALING_UP:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 1.873288835163578e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 2.0435878234081883e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_MITOTIC_SPINDLE:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 1.7881393432617188e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 1.7881393477026108e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_MTORC1_SIGNALING:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 2.7247837608435077e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 2.5544847748193433e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_MYOGENESIS:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 1.4156103156359734e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 1.5894571947505653e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_TNFA_SIGNALING_VIA_NFKB:legacy_score_reproduction",
+      "max_abs": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 1.9868214939933182e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 1.9868214939933182e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_UV_RESPONSE_DN:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX99/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "TENX98/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 2.724783763063954e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX97/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 2.0435878213698883e-07,
+      "pass": true
+    },
+    {
+      "check": "TENX95/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI785/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI784/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "check": "NCBI783/HALLMARK_XENOBIOTIC_METABOLISM:legacy_score_reproduction",
+      "max_abs": 8.881784197001252e-16,
+      "pass": true
+    }
+  ]
+}
